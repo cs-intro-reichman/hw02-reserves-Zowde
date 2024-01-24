@@ -13,13 +13,14 @@ public static void main (String[] args)
             }
             else
             {
-                if(sum==0)
+              /*   if(sum==0)
                 {
                    
                System.out.print(" ");
               sum++;
                 }
-              System.out.print(" "+"*");
+                */
+              System.out.print(" *");
             }
         }
         System.out.println();
