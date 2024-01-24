@@ -9,7 +9,7 @@ public static void main (String[] args)
         {
             if(i%2==0)
             {
-             System.out.print("*"+" ");
+             System.out.print("* ");
             }
             else
             {
@@ -19,7 +19,7 @@ public static void main (String[] args)
                System.out.print(" ");
               sum++;
                 }
-              System.out.print("*"+" ");
+              System.out.print("* ");
             }
         }
         System.out.println();
