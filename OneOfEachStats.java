@@ -1,8 +1,7 @@
 import java.util.Random;
 public class OneOfEachStats {
     public static void main(String[] args)
-    {
-        /*
+    {/*
      * boy=1
      * girl=0
      */
@@ -46,15 +45,9 @@ public class OneOfEachStats {
            boysnumber=0;
         }
         double avg=(children/T);//The average number of children per family
-        int mostcommon;
-        if((avg-(int)(avg))>=0.5)
-        {
-         mostcommon=(int)avg+1;//common number of children
-        }
-        else
-        {
-            mostcommon=(int)avg;
-        }
+        int mostcommon=Math.max(Math.max(c4,c3),c2);
+       
+        
         System.out.println("Average:"+" "+avg+" "+"children to get at least one of each gender.");
         System.out.println("Number of families with 2 children:"+" "+c2);
         System.out.println("Number of families with 3 children:"+" "+c3);
@@ -75,5 +68,6 @@ public class OneOfEachStats {
         The most common number of children is 2.
        */
     }
+
 
 }
