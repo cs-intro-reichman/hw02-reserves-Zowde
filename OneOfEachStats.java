@@ -45,8 +45,19 @@ public class OneOfEachStats {
            boysnumber=0;
         }
         double avg=(children/T);//The average number of children per family
-        int mostcommon=Math.max(Math.max(c4,c3),c2);
-       
+      int mostcommon=Math.max(Math.max(c4,c3),c2);
+        if(mostcommon==c4)
+        {
+            mostcommon=4;
+        }
+        if(mostcommon==c3)
+        {
+            mostcommon=3;
+        }
+        else
+        {
+            mostcommon=2;
+        }
         
         System.out.println("Average:"+" "+avg+" "+"children to get at least one of each gender.");
         System.out.println("Number of families with 2 children:"+" "+c2);
