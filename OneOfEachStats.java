@@ -1,5 +1,5 @@
 import java.util.Random;
-public class OneOfEachStats1 {
+public class OneOfEachStats {
     public static void main(String[] args)
     {
         /*
