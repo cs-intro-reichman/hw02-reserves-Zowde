@@ -52,7 +52,7 @@ public class OneOfEachStats {
         System.out.println("Number of families with 2 children:"+" "+c2);
         System.out.println("Number of families with 3 children:"+" "+c3);
         System.out.println("Number of families with 4 or more children:"+" "+c4);
-        System.out.println("The most common number of children is"+" "+mostcommon+" "+"or more.");
+        System.out.println("The most common number of children is"+" "+mostcommon);
         /* 
         Average: 2.7 children to get at least one of each gender.
         Number of families with 2 children: 5
