@@ -1,5 +1,5 @@
 import java.util.Random;
-public class OneOfEachStats {
+public class OneOfEachStats1 {
     public static void main(String[] args)
     {
         /*
@@ -46,8 +46,15 @@ public class OneOfEachStats {
            boysnumber=0;
         }
         double avg=(children/T);//The average number of children per family
-        int mostcommon=(int)avg;//common number of children
-          
+        int mostcommon;
+        if((avg-(int)(avg))>=0.5)
+        {
+         mostcommon=(int)avg+1;//common number of children
+        }
+        else
+        {
+            mostcommon=(int)avg;
+        }
         System.out.println("Average:"+" "+avg+" "+"children to get at least one of each gender.");
         System.out.println("Number of families with 2 children:"+" "+c2);
         System.out.println("Number of families with 3 children:"+" "+c3);
@@ -60,6 +67,12 @@ public class OneOfEachStats {
         Number of families with 4 or more children: 2
         The most common number of children is 2.
         
+
+        Average: 2.99 children to get at least one of each gender.
+        Number of families with 2 children: 51
+        Number of families with 3 children: 24
+        Number of families with 4 or more children: 25
+        The most common number of children is 2.
        */
     }
 
