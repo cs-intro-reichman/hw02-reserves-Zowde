@@ -27,5 +27,10 @@ public class Perfect {
     {
         System.out.print(num+" "+"is a perfect number since"+" "+num+" "+"="+divi);
     }
+        else
+    {
+        System.out.print(num+" is not a perfect number");
+    }
+    
 }
 }
